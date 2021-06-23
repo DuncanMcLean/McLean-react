@@ -1,11 +1,15 @@
 import React from 'react'
 
-const Header = () => {
+const About = () => {
     return (
         <div>
-            Header Section
+            About Page
         </div>
     )
 }
 
-export default Header
+export default About
+
+
+
+

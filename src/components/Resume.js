@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Header = () => {
+const Resume = () => {
     return (
         <div>
-            Header Section
+            Resume Page
         </div>
     )
 }
 
-export default Header
+export default Resume
