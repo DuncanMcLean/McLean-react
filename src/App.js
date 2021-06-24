@@ -8,8 +8,6 @@ import Footer from './components/Footer'
 function App() {
   return (
     <div className="container">
-      <h1>Hello World</h1>
-
       {/* Each component will be a different section of 
           the webpage (Header -> About -> Resume -> Contact)
       */}
