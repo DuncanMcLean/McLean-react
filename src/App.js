@@ -26,3 +26,10 @@ function App() {
 }
 
 export default App;
+/*
+Hex value for color scheme:
+Linen - #E9E9E9 (Very light grey)
+Plaster - #CDCDCD (Light grey)
+Fresh Water - #88BBD6 (Blue)
+Ice - #99D3DF (Lighter Blue)
+*/

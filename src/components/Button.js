@@ -4,7 +4,15 @@ import PropTypes from 'prop-types'
 
 const Button = ({text, color}) => {
     return (
-        <button style = {{backgroundColor: color}}> {text} </button>
+        <button style = {
+            {backgroundColor: color,
+            fontSize: 30,
+            border: 'none',
+            cursor: 'pointer'
+            
+
+            }
+        }> {text} </button>
     )
 }
 
