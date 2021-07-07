@@ -2,19 +2,20 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className = 'container'>
+        <div className = 'container' style = {{textAlign: 'center'}}>
             <div
             style = {{
                 padding: 30,
-                backgroundColor:'#CDCDCD'
-                
+                backgroundColor:'#CDCDCD',
             }}
             >
-            Footer Section
-            </div>
+           © 2021 Duncan McLean
+           </div>
+            
        </div>
 
     )
 }
 
 export default Footer
+// ©

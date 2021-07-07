@@ -4,7 +4,7 @@ import Button from './Button'
 
 const Header = () => {
     return (
-        <div style = {{backgroundColor: '#CDCDCD', zIndex: -2, position: 'sticky', top: 0, zIndex: 1}}>
+        <div style = {{backgroundColor: '#CDCDCD', position: 'sticky', top: 0, zIndex: 1}}>
            
             {/* Needs to be changed to the "a" tag, link to top of the page */}
             <h1 style = {{textAlign: 'center'}} >-Duncan McLean-</h1>

@@ -14,3 +14,7 @@ const Contact = () => {
 }
 
 export default Contact
+// <a href='mailto:duncanmclean12@gmail.com?subject = Feedback&body = Message' 
+// style = {{display: 'block'}}>
+// Email
+// </a>
