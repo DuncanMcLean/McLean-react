@@ -5,10 +5,14 @@ const Resume = () => {
         <div
         style = {{
             padding: 200,
-            backgroundColor:'#99D3DF'
+            backgroundColor:'#99D3DF',
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'space-evenly',
+            flexWrap: 'wrap'
         }}
         >
-            Resume Page
+        Resume Page
         </div>
     )
 }

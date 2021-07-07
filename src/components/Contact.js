@@ -6,7 +6,7 @@ const Contact = () => {
         className = 'container'
         style = {{
             padding: 200,
-            backgroundColor:'#88BBD6',
+            backgroundColor: 'lightsteelblue',
             display: 'flex',
             flexDirection: 'row',
             justifyContent: 'space-evenly',
@@ -15,8 +15,13 @@ const Contact = () => {
         }}
         >
             
-        <div>Column 1</div>
-        <div>Column 2</div>
+        <div className = 'emailColumn' style = {{}}>
+            Email
+        </div>
+        
+        <div className = 'linkedColumn' style = {{}}>
+            LinkedIn
+        </div>
 
         </div>
     )

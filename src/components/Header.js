@@ -27,10 +27,4 @@ const Header = () => {
 
 export default Header
 
-/*
-{position: 'fixed', 
-                display: 'block', 
-                zIndex: 1, 
-                right: 60, 
-                top: 15}
-*/
+//Button needs to be responsive when the page shrinks, otherwise complete

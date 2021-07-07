@@ -5,7 +5,11 @@ const About = () => {
         <div
         style = {{
             padding: 200,
-            backgroundColor:'#E9E9E9'
+            backgroundColor:'#88BBD6',
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'space-evenly',
+            flexWrap: 'wrap'
         }}
         >
             About Page
