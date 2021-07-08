@@ -9,7 +9,7 @@ const Footer = () => {
                 backgroundColor:'#CDCDCD',
             }}
             >
-           © 2021 Duncan McLean
+           ©2021 by Duncan McLean
            </div>
             
        </div>

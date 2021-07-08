@@ -8,12 +8,12 @@ const Header = () => {
                                                 justifyContent: 'center', flexWrap: 'wrap'}}>
            
             {/* Needs to be changed to the "a" tag, link to top of the page */}
-            <h1 style = {{alignSelf: 'center' }} >-Duncan McLean-</h1>
+            <h1 style = {{alignSelf: 'center', fontFamily: 'americantypewriter', fontSize: 32 }} >-Duncan McLean-</h1>
             
 
             {/* Button postioning */}
             <h1 style = {
-                {alignSelf: 'flex-end', position: 'fixed', zIndex: 1, right: 60, top: 0}
+                {alignSelf: 'flex-end', position: 'fixed', zIndex: 1, right: 60, top: -1}
             }> 
             <Button
                 text = "☰"
