@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: white;
+  background-color: black;
 }
 
 code {
@@ -13,11 +13,10 @@ code {
     monospace;
 }
 
-.container{
+.mainContainer{
   display: flex;
   flex-direction: column;
 }
-
 
 .header {
   display: flex;
@@ -26,13 +25,27 @@ code {
   padding: 200%;
 }
 
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 300px;
+  z-index: 2;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14);
+}
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  padding: 8px 12px;
+  font-family: 'american-typewriter', 'serif';
+}
 
-
-
-
-
-
-
-
-
+li:hover {
+  background-color: rgba(0, 0, 0, 0.14);
+  cursor: pointer;
+}
