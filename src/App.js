@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="mainContainer">
       <Header/>
+      <img src="htmlBackground.jpg" alt="Htmlimage"></img>
       <About/>
       <Resume/>
       <Contact/>

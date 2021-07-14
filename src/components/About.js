@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div
+        <div className = 'about'
         style = {{
             padding: 200,
             backgroundColor:'#88BBD6',
