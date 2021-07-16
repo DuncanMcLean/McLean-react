@@ -1,18 +1,26 @@
-import React from 'react'
+import React, { Component, useEffect, useRef } from 'react'
+
+const useMountEffect = func => useEffect(func, []);
 
 const Header = () => {
+    const myRef = useRef(null);
+
+    const executeScroll = () => myRef.current.scrollIntoView();
+
+    useMountEffect(executeScroll);
+
     return (
-        <div className = 'container'style = {{backgroundColor: '#CDCDCD'}}>
-            <a className = 'homeButton' href = '#img' style = {{
+        <div className = 'container' style = {{backgroundColor: '#CDCDCD'}}>
+            <div className = 'homeButton'  style = {{
                 textDecoration: 'none',
                 color: 'black'
-            }}>Duncan McLean</a>
+            }}>Duncan McLean</div>
             
-            {/* <div className = 'headerContainer' display = 'flex' flexDirection = 'row' justifyContent = 'flex-end' >
-            <a>About </a>
-            <a>Resume </a>
-            <a>Contact </a>
-            </div> */}
+            <div className = 'headerContainer' display = 'flex' flexWrap = 'nowrap' flexDirection = 'row' justifyContent = 'flex-end'  >
+                <div>About </div>
+                <div>Resume </div>
+                <div>Contact </div>
+            </div> 
 
         </div>
     )
