@@ -3,11 +3,11 @@ import React, { Component, useEffect, useRef } from 'react'
 const useMountEffect = func => useEffect(func, []);
 
 const Header = () => {
-    const myRef = useRef(null);
+    //const myRef = useRef(null);
 
-    const executeScroll = () => myRef.current.scrollIntoView();
+    //const executeScroll = () => myRef.current.scrollIntoView();
 
-    useMountEffect(executeScroll);
+    //useMountEffect(executeScroll);
 
     return (
         <div className = 'container' style = {{backgroundColor: '#CDCDCD'}}>
