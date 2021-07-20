@@ -1,13 +1,14 @@
 import React from 'react'
-import Header from './Header'
+//import Header from './Header'
 
 
-const ref = React.createRef();
-const aboutRef = React.forwardRef((ref))
+//const ref = React.createRef();
+//const aboutRef = React.forwardRef((ref))
+//ref={aboutRef}
 
 const About = () => {
     return (
-        <div ref={aboutRef} className = 'about'
+        <div  className = 'about'
         style = {{
             padding: 200,
             backgroundColor:'#88BBD6',
@@ -23,7 +24,3 @@ const About = () => {
 }
 
 export default About
-
-
-
-
